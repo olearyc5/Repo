@@ -1,0 +1,190 @@
+body {
+	color:white;
+	text-align:center;
+	background:linear-gradient(to bottom right, #8a2be2 0%, #d3d3d3 100%);
+	*/
+}
+
+a{
+	text-decoration:none;
+	color:inherit;
+}
+
+table{
+	padding-left: 7vh;
+	padding-right: 7vh;
+	width:100%;
+	vertical-align:top;
+}
+
+footer{
+	margin:1vh;
+	padding:1.5vh;
+	background-color:#6a66d9;
+	color:white;
+	font-size:1.25vh;
+	text-align:left;
+}
+
+button , .green-button, #domain-search{
+	padding:0.75vh;
+	padding-right:1.5vh;
+	padding-left:1.5vh;
+	border-radius: 0.5vh;
+	-webkit-transition-duration: 0.4s;
+	transition-duration:0.4s;
+}
+
+button:hover{
+	cursor:pointer;
+	background-color:#4b4999;
+	color:white;
+	font-weight:bold;
+}
+
+button:active{
+	transform: translateY(4px);
+}
+
+#domain-search:active{
+	transform: translateY(4px);
+}
+
+.green-button:hover{
+	background-color:white;
+	color:lightgreen;
+}
+
+#domain-search:hover{
+	cursor:pointer;
+	font-weight:bold;
+	background-color:white;
+	color:lightgreen;
+}
+
+#account:hover{
+	font-weight:bold;
+	background-color:white;
+	color:#8A2BE2;
+	
+}
+	
+
+.header-bar{
+	color:white;
+	text-align:right;
+}
+
+#header-right{
+	text-align:left;
+	width:50%;
+	font-weight:bold;
+}
+
+.green-button{
+	margin:1vh;
+	color:white;
+	background-color:lightgreen;
+}
+
+#down{
+	max-width:1.5vh;
+	height:auto;
+}
+
+#landing{
+	padding:10vh;
+	color:white;
+}
+
+#title_emphasis{
+	color:lightblue;
+}
+
+#domain-search{
+	margin:auto;
+	width:40%;
+}
+
+#middle{
+	text-transform:uppercase;
+	color:white;
+}
+
+#acc {
+	color:black;
+	margin: 3vh;
+}
+
+#services{
+	margin-left:15%;
+	margin-right:15%;
+}
+
+#account{
+	background-color:#8A2BE2;
+	color:white;
+	margin: 2vh;
+	text-transform:uppercase;
+}
+
+.service-box{
+	float:left;
+	border: 0.1vh solid #D3D3D3;
+	border-radius: 1vh;
+	min-width:30vh;
+	max-width: 30%;
+	height:10vh;
+	text-align:left;
+	padding-top:2vh;
+	padding-bottom:2vh;
+	margin:0.5vh;
+}
+
+.service-title{
+	font-weight:bold;
+}
+
+.service-img{
+	float:left;
+	margin-left: 0vh;
+	margin-right: 1vh;
+	margin-bottom:3vh;
+	max-width:6vh;
+	height:auto;
+}
+
+#ready-button{
+	text-align:right;
+	margin-left: 1vh;
+	margin-right:1vh;
+}
+
+#ready-text{
+	text-align:left;
+	font-size:2vh;
+	width:50%;
+}
+
+.footer-list-left,.footer-list-right {
+
+	list-style-type:none;
+	padding:1.5vh;
+}
+
+.footer-table{
+	padding-left:2vh;
+	padding-right:2vh;
+}
+
+li.phone{
+	background:url('phone.png') no repeat left top;
+}
+
+.icon{
+	max-width:2vh;
+	height:auto;
+}
+
+
+
